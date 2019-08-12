@@ -1,0 +1,85 @@
+body
+{
+	background:url(big.jpeg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	font-family: sans-serif;
+}
+section{
+	background:rgba(0,0,0,.8);
+	margin-left:100px;
+	margin-right:100px;
+}
+h1
+{
+font-family:AR Christy;
+color:white;
+font-size:40px;
+}
+
+.full-width.navbar
+{
+	background:rgba(0,0,0,.6);
+	color:white;
+	font-weight:bold;
+	padding:0 100px;
+	font-family:Segoe Script;
+}
+.full-width.navbar ul
+{
+	float:right;
+	margin:0;
+	display:flex;	
+}
+.full-width.navbar ul li 
+{
+	list-style:none;
+	
+}
+.full-width.navbar ul li a
+{
+	display:block;
+	color:#fff;
+	padding:20px;
+	text-decoration:none;
+	transition:0.5s all;
+}
+.full-width.navbar ul li a:hover
+{
+	background:red;
+	color:black;
+	padding:40px 10px 11px 10px;
+	
+}
+.divider1
+{
+	background:rbga(0,0,0,.5);
+	height:20px;
+}
+.g:hover
+{
+	margin-top: 8px;
+}
+	
+::-webkit-scrollbar {
+	width:5px;
+	background:black;
+}
+::-webkit-scrollbar-thumb {
+	background:red;
+}
+::-webkit-scrollbar-thumb:hover {
+	background:blue;
+}
+
+
+
+
+
+
+
+
+
+
+

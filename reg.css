@@ -1,0 +1,188 @@
+body
+{
+	margin:0;
+	padding:0;
+	background:url(big.jpeg);
+	background-size:1400px 1000px;
+	background-position:center;
+	background-repeat:no-repeat;
+	font-family: sans-serif;
+}
+section
+{
+	width:100%;
+	height:100vh;
+}
+.full-width
+{
+	width:100%;
+	box-sizing: border-box;
+}
+.full-width.navbar
+{
+	background:rgba(0,0,0,.8);
+	color:white;
+	padding:0 20px;
+}
+.full-width.navbar ul
+{
+	float:right;
+	margin:0;
+	display:flex;	
+}
+.full-width.navbar ul li 
+{
+	list-style:none;
+	
+}
+.full-width.navbar ul li a
+{
+	display:block;
+	color:#fff;
+	padding:20px;
+	text-decoration:none;
+	transition:0.5s all;
+}
+.full-width.navbar ul li a:hover
+{
+	background:red;
+	color:black;
+	padding:40px 10px 11px 10px;
+	
+}
+.divider1
+{
+	background:red;
+	height:5px;
+	
+}
+.g:hover
+{
+	margin-top: 8px;
+}
+.loginbox
+{
+	width:320px;
+	height:595px;
+	background:rgba(0,0,0,.8);
+	color:#fff;
+	top:63%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	padding:70px 30px;
+}
+.k
+{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	top:-50px;
+	left: 33%
+}
+h1
+{
+	font-size:22px;
+	padding:0 0 20px;
+	text-align:center;
+	margin:0;
+}
+.loginbox p
+{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+.loginbox input
+{
+	width:100%;
+	margin-bottom:5px;
+}
+.loginbox input[type = "text"], input[type = "password"],input[type = "email"],input[type = "integer"]
+{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+
+}
+.loginbox input[type = "submit"]
+{
+	border:none;
+	background:red;
+	color:#fff;
+	outline:none;
+	height:40px;
+	font-size:18px;
+	border-radius:20px;
+	margin-top:50px;
+	
+}
+.loginbox input[type = "submit"]:hover
+{
+	background:blue;
+	transition:0.5s;
+	cursor:pointer;
+	color:lightgreen;
+}
+.loginbox a
+{
+	text-decoration:none;
+	font-size:16px;
+	line-height:20px;
+	color:lightgreen;
+	font-weight:bold;
+}
+.loginbox b
+{
+	text-decoration:none;
+	font-size:16px;
+	line-height:20px;
+	color:white;
+}
+.loginbox a:hover
+{
+	color:orange;
+}
+.error
+{
+	position:absolute;
+	left:90%;
+	top:33%;
+	padding:1% 20%;
+	border-radius:10px;
+	background-color:rgba(0,0,0,.7);
+	color:white;
+	display:none;
+}
+.error:before
+{
+	content:"";
+	width:0;
+	height:0
+	border-left:9px solid transparent;
+	border-right:9px solid transparent;
+	border-top:9px solid transparent;
+	position:absolute;
+	bottom:-150%;
+	left:1%;
+}
+::-webkit-scrollbar {
+	width:5px;
+	background:black;
+}
+::-webkit-scrollbar-thumb {
+	background:red;
+}
+::-webkit-scrollbar-thumb:hover {
+	background:blue;
+}
+
+
+
+

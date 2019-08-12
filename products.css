@@ -1,0 +1,82 @@
+.h
+{
+	margin-top: 20px;
+	margin-left:100px;
+}
+h1
+{
+	color:white;
+	font-family: AR Christy;
+	color:white;
+	font-size:35px;
+}
+.divider2
+{
+	margin-top:20px;
+	background:red;
+	height:5px;
+	margin-left:100px;
+	margin-right:50px;
+}
+.divider4
+{	
+	margin-top:13px;
+	background:white;
+	height:5px;
+	margin-left:100px;
+	margin-right:50px;
+}
+p
+{
+	color:white;
+	font-family: New Times Roman;
+	color:white;
+	font-size:15px;
+	margin-left:100px;
+}
+.products 
+{
+	background:black;
+	color:white;
+	padding:0 100px;
+}
+.products ul
+{
+	margin:0;
+	display:flex;
+}
+.products ul li
+{
+	list-style:none;
+}
+.products ul li a
+{
+	display:block;
+	color:#fff;
+	padding:37px;
+	text-decoration:none;
+	transition:0.5s all;
+}
+.name:hover
+{
+	background-color: green;
+}
+.name1:hover
+{
+	background-color: red;
+}
+.name2:hover
+{
+	background-color: navy;
+}
+.divider5
+{
+	background:black;
+	height:50px;
+	margin-left:100px;
+	margin-right:50px;
+}
+
+a {
+	cursor:pointer;
+}	
